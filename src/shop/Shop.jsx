@@ -6,7 +6,7 @@ function Shop() {
   const [books, setBooks] = useState([])
 
   useEffect(()=>{
-    fetch('http://localhost:5001/all-books')
+    fetch('https://bookstore-serve.onrender.com/all-books')
    .then(res=>res.json())
 
    .then(data=>setBooks(data))

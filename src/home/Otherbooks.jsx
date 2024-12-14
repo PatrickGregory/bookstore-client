@@ -5,7 +5,7 @@ function Otherbooks() {
     const [books, setBooks] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5001/all-books')
+        fetch('https://bookstore-serve.onrender.com/all-books')
         .then(res=>res.json())
         // .then(data=>console.log(data))
         .then(data=>setBooks(data.slice(4, 12)))

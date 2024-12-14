@@ -68,7 +68,7 @@ function Editbook() {
     }
     //console.log(updatebook);
     // update books
-    fetch('http://localhost:5001/book/'+id, {
+    fetch('https://bookstore-serve.onrender.com/book/'+id, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updateBook)

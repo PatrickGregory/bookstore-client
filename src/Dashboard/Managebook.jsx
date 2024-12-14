@@ -7,7 +7,7 @@ function Managebook() {
   const {id} = useParams()
 
   useEffect(() => {
-    fetch('http://localhost:5001/all-books')
+    fetch('https://bookstore-serve.onrender.com/all-books')
       .then(res => res.json())
       .then(data => setBooks(data))
       // .then(book=>console.log(book))
