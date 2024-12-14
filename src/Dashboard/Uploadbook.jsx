@@ -73,7 +73,7 @@ function Uploadbook() {
     //   bookPdfUrl: e.target.bookPdfUrl.value,
     // }
     // console.log(newBook);
-    fetch('https://bookstore-serve.onrender.com/upload-book', {
+    fetch('http://bookstore-serve.onrender.com/upload-book', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(bookObjt)

@@ -5,7 +5,7 @@ function Dashboard() {
   const [books, setBook] = useState([])
 
   useEffect(()=>{
-    fetch('https://bookstore-serve.onrender.com/all-books')
+    fetch('http://bookstore-serve.onrender.com/all-books')
    .then(res=>res.json())
    .then(data=>setBook(data.slice(0, 8)))
    .catch(err=>console.log(err))

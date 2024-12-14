@@ -6,7 +6,7 @@ function BestSellingBook() {
     const [books, setBooks] = useState([])
 
     useEffect(()=>{
-        fetch('https://bookstore-serve.onrender.com/all-books')
+        fetch('http://bookstore-serve.onrender.com/all-books')
         .then(res=>res.json())
        // .then(data=>console.log(data))
         .then(data=>setBooks(data.slice(0, 6)))
