@@ -6,7 +6,7 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAdqmKlGOThlAD9BXi2jEtuRX5zZwhQ-x0",
-  authDomain: "bookstore-client-bc4q.onrender.com",
+  authDomain: "bookstore-79b61.firebaseapp.com",
   projectId: "bookstore-79b61",
   storageBucket: "bookstore-79b61.appspot.com",
   messagingSenderId: "393908373085",
